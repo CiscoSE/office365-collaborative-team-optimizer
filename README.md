@@ -29,8 +29,8 @@ Our solution will levegerage the following technologies:
 
 ## Team Members
 
-* Bradford Ingersoll <bingerso@cisco.com> - Commercial East
-* Eric Scott <eriscott@cisco.com> - Public Sector Central East
+* Bradford Ingersoll <bingerso@cisco.com> - US Commercial East
+* Eric Scott <eriscott@cisco.com> - US Public Sector Central East
 
 
 ## Solution Components
