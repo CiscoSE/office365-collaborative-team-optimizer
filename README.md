@@ -1,35 +1,36 @@
 # office365-collaborative-team-optimizer
 
-Integration between Webex Teams and Office 365 for an enhanced collaborative toolset.
+Integration between Webex Teams and Office 365 for an enhanced collaborative experience.
 
 
 ## Business/Technical Challenge
 
-**TODO:** 1-3 paragraphs of the business/technical Challenge
+Cisco employees - as well as Cisco customers - have heavily adopted Webex Teams and Office 365 for collaboration and running day-to-day business. Quick messages are often exchanged via an email within Outlook or a conversation on Webex Teams. Meetings might be set up by opening a personal room through Webex Teams or sending a calendar invite within Outlook. Meeting notes are then scattered among team members and their various physical notebooks, OneNote entries, and Webex rooms.
+
+While most people have learned to be adept at juggling both platforms, what if we could further unify the two products and create a truly collaborative experience?
+
 
 ## Proposed Solution
 
+With Office 365 Collaborative Team Optimizer (OCTO), we wanted to expand upon the foundation of teams and collaborative rooms within Webex Teams and streamline the common Office 365 tasks that come as a result of working together. OCTO is a Webex Teams integration/bot that teams can add into their collaboritive rooms and conversations. With it in place, a simple command will tell OCTO what the team would like to accomplish.
 
-**TODO:** 1-3 paragraphs of the solution in written format
+Example 1: If the conversation is trending towards setting up a meeting, simply tell OCTO "meeting" and a card will pop up that automatically includes the name of the room as the subject and auto-includes everyone within the room. Pick a date and time and then just like that - a meeting to tackle what ever was being discussed has been set up from within Webex Teams.
+
+Example 2: Perhaps a meeting has just ended. Everyone took their notes and want to compile them together for simplicity going forward. Rather just copying and pasting into an email thread or into a Teams room, tell OCTO "note" and a card will pop up to create a new shared OneNote with everyone in the room. Now the team can have a single document with all their notes in it.
 
 
 ### Cisco Products Technologies/ Services
 
-**TODO:** List out major technologies included in the solution (ACI, DNAC, third party, etc) e.g
+Our solution will levegerage the following technologies:
 
-Our solution will levegerage the following Cisco technologies
+* [Cisco Webex Teams](http://cisco.com/go/webexteams)
+* [Office 365](https://www.microsoft.com/office365)
 
-* [Application Centric Infrastructure (ACI)](http://cisco.com/go/aci)
-* [DNA Center (DNA-C)](http://cisco.com/go/dna)
 
 ## Team Members
 
-
-**TODO:** ASIC projects must consist of a minimum of 2 SE’s
-representing a minimum of 2 segments. List names here
-
-* team member1 <email> - Segment Name
-* team member2 <email> - Segment Name
+* Bradford Ingersoll <bingerso@cisco.com> - Commercial East
+* Eric Scott <bingerso@cisco.com> - Public Sector North East
 
 
 ## Solution Components

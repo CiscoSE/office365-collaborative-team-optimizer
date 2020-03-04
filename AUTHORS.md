@@ -3,6 +3,7 @@ This project was written and is maintained by the following individuals:
 ## Author(s)
 
 * Bradford Ingersoll <bingerso@cisco.com>
+* Eric Scott <eriscott@cisco.com>
 
 
 ## Maintainer(s)
