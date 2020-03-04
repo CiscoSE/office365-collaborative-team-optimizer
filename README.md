@@ -1,6 +1,6 @@
 # office365-collaborative-team-optimizer
 
-Integration between Webex Teams and Office 365 for an enhanced collaborative experience.
+Integration between Webex Teams and Office 365 for an enhanced collaboration experience.
 
 
 ## Business/Technical Challenge
