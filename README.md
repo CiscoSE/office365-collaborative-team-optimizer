@@ -5,14 +5,14 @@ Integration between Webex Teams and Office 365 for an enhanced collaborative exp
 
 ## Business/Technical Challenge
 
-Cisco employees - as well as Cisco customers - have heavily adopted Webex Teams and Office 365 for collaboration and running day-to-day business. Quick messages are often exchanged via an email within Outlook or a conversation on Webex Teams. Meetings might be set up by opening a personal room through Webex Teams or sending a calendar invite within Outlook. Meeting notes are then scattered among team members and their various physical notebooks, OneNote entries, and Webex rooms.
+Cisco employees - as well as Cisco customers - have heavily adopted Webex Teams and Office 365 for collaboration and running day-to-day business. With two critical tools for collaboration teams must constantly mangage both platforms simultaneously in order to effectively work together or important information can be lost. For example, quick messages are often exchanged via an email within Outlook or a conversation on Webex Teams. Meetings might be set up by opening a personal room through Webex Teams or sending a calendar invite within Outlook. Meeting notes are then scattered among team members and their various physical notebooks, OneNote entries, and Webex rooms.
 
 While most people have learned to be adept at juggling both platforms, what if we could further unify the two products and create a truly collaborative experience?
 
 
 ## Proposed Solution
 
-With Office 365 Collaborative Team Optimizer (OCTO), we wanted to expand upon the foundation of teams and collaborative rooms within Webex Teams and streamline the common Office 365 tasks that come as a result of working together. OCTO is a Webex Teams integration/bot that teams can add into their collaboritive rooms and conversations. With it in place, a simple command will tell OCTO what the team would like to accomplish.
+With Office 365 Collaborative Team Optimizer (OCTO), we want to unify the two major collaboration tools that Cisco and its customers' buisinesses utilize daily. OCTO is a Webex Teams bot that a team can add into any room and begin using immediately. Once added, a simple command will tell OCTO what the team would like to accomplish such as scheduling a meeting or creating a OneNote for the team.
 
 Example 1: If the conversation is trending towards setting up a meeting, simply tell OCTO "meeting" and a card will pop up that automatically includes the name of the room as the subject and auto-includes everyone within the room. Pick a date and time and then just like that - a meeting to tackle what ever was being discussed has been set up from within Webex Teams.
 
@@ -30,7 +30,7 @@ Our solution will levegerage the following technologies:
 ## Team Members
 
 * Bradford Ingersoll <bingerso@cisco.com> - Commercial East
-* Eric Scott <bingerso@cisco.com> - Public Sector North East
+* Eric Scott <eriscott@cisco.com> - Public Sector Central East
 
 
 ## Solution Components
