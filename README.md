@@ -1,6 +1,8 @@
 # office365-collaborative-team-optimizer
 
-Integration between Webex Teams and Office 365 for an enhanced collaboration experience.
+[![Watch the video](https://img.youtube.com/vi/Ho7OThndf28/hqdefault.jpg)](https://youtu.be/Ho7OThndf28)
+
+*An integration between Webex Teams and Office 365 for an enhanced collaboration experience!*
 
 
 ## Business/Technical Challenge
@@ -35,28 +37,66 @@ Our solution will levegerage the following technologies:
 
 ## Solution Components
 
-
-<!-- This does not need to be completed during the initial submission phase  
-
-Provide a brief overview of the components involved with this project. e.g Python /  -->
+* [Python 3.7](https://www.python.org/)
+* [webexteamsbot](https://github.com/hpreston/webexteamsbot)
+* [Microsoft Graph API](https://docs.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0)
 
 
 ## Usage
 
-<!-- This does not need to be completed during the initial submission phase  
+To use OCTO, simply setup the bot in your environment. Once deployed, add OCTO to any collaborative space with 2 or more people. When you want to utilize its features, just reference the bot and the appropriate command. For example:
 
-Provide a brief overview of how to use the solution  -->
+```
+@OCTO /meeting
+```
 
+A card will appear and you can proceed to schedule your team meeting!
 
 
 ## Installation
 
-How to install or setup the project for use.
+1. Clone this repository
 
+```
+git clone https://github.com/CiscoSE/office365-collaborative-team-optimizer.git
+```
+
+2. Configure a .env file in the **code** directory with all the necessary environment variables
+```
+OCTO_BOT_EMAIL=
+OCTO_BOT_ID=
+OCTO_BOT_TOKEN=
+OCTO_BOT_URL=
+OCTO_BOT_APP_NAME=
+O365_TOKEN=
+```
+
+**NOTE: For full functionality, an OAUTH integration should be added to the bot that enables OCTO to act on behalf of each individual user. Given constraints regarding InfoSec within our production environment, a temporary token was used to demonstrate the functionality.**
+
+3. Create a virtual environment for the python code
+```
+python -m venv venv
+```
+
+4. Activate the newly created virtual environment
+```
+source venv/bin/activate
+```
+
+5. Install the required modules into the virtual environment
+```
+pip install -r requirements.txt
+```
+
+6. Run the bot.py on a publicly acessible URL (using ngrok or other means)
+```
+python bot.py
+```
 
 ## Documentation
 
-Pointer to reference documentation for this project.
+* [webexteamsbot](https://github.com/hpreston/webexteamsbot)
+* [Microsoft Graph API](https://docs.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0)
 
 
 ## License

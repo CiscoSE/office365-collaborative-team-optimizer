@@ -1,0 +1,17 @@
+certifi==2019.11.28
+chardet==3.0.4
+click==7.1.1
+Flask==1.1.1
+future==0.18.2
+idna==2.9
+itsdangerous==1.1.0
+Jinja2==2.11.1
+MarkupSafe==1.1.1
+PyJWT==1.7.1
+python-dotenv==0.13.0
+requests==2.23.0
+requests-toolbelt==0.9.1
+urllib3==1.25.8
+webexteamsbot==0.1.4.2
+webexteamssdk==1.2
+Werkzeug==1.0.1
